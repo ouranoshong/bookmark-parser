@@ -1,0 +1,26 @@
+{
+    "name": "ouranoshong/bookmark-parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ouranoshong",
+            "email": "ouranoshong@outlook.com"
+        }
+    ],
+    "description": "browser bookmark parser",
+    "autoload": {
+        "psr-4": {
+            "Bookmark\\Parser\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "Test\\Bookmark\\Parser\\": "./tests"
+    },
+    "require": {
+        "ext-libxml": "*",
+        "ext-dom": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    }
+}
